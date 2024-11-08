@@ -27,7 +27,10 @@ bool isGameOver(int attemptsLeft) {
 
 int main() {
     // List of possible words
-    std::vector<std::string> words = {"computer", "programming", "hangman", "code", "algorithm"};
+    std::vector<std::string> words = {
+        "computer", "programming", "hangman", "code", "algorithm",
+        "variable", "function", "loop", "array", "pointer"
+    };
 
     // Seed for random number generator
     std::srand(static_cast<unsigned int>(std::time(0)));
